@@ -1,4 +1,10 @@
 .nav-container {
     display: flex;
     padding: 2%;
+    align-items: center;
+}
+
+.searchbarContainer {
+    display: flex;
+    align-items: center;
 }

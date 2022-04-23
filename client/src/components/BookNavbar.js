@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, NavDropdown, Nav, InputGroup, SplitButton, Dropdown, FormControl} from 'react-bootstrap'
+import {Navbar, Nav, InputGroup, SplitButton, Dropdown, FormControl} from 'react-bootstrap'
 import './styles/BookNavbar.css'
 
 function BookNavbar () {
@@ -9,13 +9,13 @@ function BookNavbar () {
             <div className='nav-container'>
                 <Navbar.Brand>Bookend</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>
-                <Navbar.Collapse >
+                <Navbar.Collapse className >
                     <Nav className='me-auto'>
                         <Nav.Link >Dashboard</Nav.Link>
                         <Nav.Link >Hello</Nav.Link>
                     </Nav>
-                    <Nav>
-                        <InputGroup className='mb-3'>
+                    <Nav className='searchbarContainer'>
+                        <InputGroup className='searchbar mb-3'>
                              <FormControl aria-label='some text'/>
                              <SplitButton
                              variant='outline-secondary'
