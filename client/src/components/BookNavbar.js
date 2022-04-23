@@ -9,12 +9,10 @@ function BookNavbar () {
             <div className='nav-container'>
                 <Navbar.Brand>Bookend</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>
-                <Navbar.Collapse className >
+                <Navbar.Collapse>
                     <Nav className='me-auto'>
                         <Nav.Link >Dashboard</Nav.Link>
                         <Nav.Link >Hello</Nav.Link>
-                    </Nav>
-                    <Nav className='searchbarContainer'>
                         <InputGroup className='searchbar mb-3'>
                              <FormControl aria-label='some text'/>
                              <SplitButton
