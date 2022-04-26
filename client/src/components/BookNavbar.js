@@ -9,7 +9,7 @@ function BookNavbar () {
             <div className='nav-container'>
                 <Navbar.Brand>Bookend</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>
-                <Navbar.Collapse>
+                <Navbar.Collapse className='navOptions'>
                     <Nav className='me-auto'>
                         <Nav.Link >Home</Nav.Link>
                         <Nav.Link >Favorites</Nav.Link>
