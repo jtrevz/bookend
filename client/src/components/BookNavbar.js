@@ -5,14 +5,15 @@ import './styles/BookNavbar.css'
 function BookNavbar () {
     return (
         <div expand='lg'>
-            <Navbar expand='lg inline'>
+            <Navbar expand='lg inline navBar'>
             <div className='nav-container'>
                 <Navbar.Brand>Bookend</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>
                 <Navbar.Collapse>
                     <Nav className='me-auto'>
-                        <Nav.Link >Dashboard</Nav.Link>
-                        <Nav.Link >Hello</Nav.Link>
+                        <Nav.Link >Home</Nav.Link>
+                        <Nav.Link >Favorites</Nav.Link>
+                        <Nav.Link >Genres</Nav.Link>
                         <InputGroup className='searchbar mb-3'>
                              <FormControl aria-label='some text'/>
                              <SplitButton

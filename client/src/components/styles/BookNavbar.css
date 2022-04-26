@@ -1,3 +1,8 @@
+.navBar {
+    background-color: #C1CDC0;
+    padding: none;
+    border-radius: 0px 0px 20px 20px;
+}
 
 .nav-container {
     display: flex;
