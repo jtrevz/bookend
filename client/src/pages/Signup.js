@@ -1,30 +1,27 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import {Row, Col} from 'react-bootstrap'
-import './pages'
+import {Row, Col, Container} from 'react-bootstrap'
+import './../components/styles/Signup.css'
 
 function Signup () {
     return (
         <div className='signup'>
+        <h1>Sign Up Here!</h1>
+        <Container>
+        <Row className="justify-content-md-center">
         <Form className='form'>
         <Row>
             <Col>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Group className="mb-3" >
                 <Form.Label>First Name</Form.Label>
                 <Form.Control type="fName" placeholder="First Name" />
-                <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                </Form.Text>
                 </Form.Group>    
             </Col>
             <Col>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Group className="mb-3" >
                 <Form.Label>Last Name</Form.Label>
                 <Form.Control type="lName" placeholder="Last Name" />
-                <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                </Form.Text>
                 </Form.Group>
             </Col>
         </Row>
@@ -46,6 +43,8 @@ function Signup () {
           Submit
         </Button>
       </Form>
+      </Row>
+      </Container>
       </div>
     )
 }
