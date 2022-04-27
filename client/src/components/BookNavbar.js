@@ -1,13 +1,16 @@
 import React from 'react';
 import {Navbar, Nav, InputGroup, SplitButton, Dropdown, FormControl} from 'react-bootstrap'
 import './styles/BookNavbar.css'
+import Icon from './img/Icon'
 
 function BookNavbar () {
     return (
         <div expand='lg'>
             <Navbar expand='lg inline navBar'>
             <div className='nav-container'>
-                <Navbar.Brand>Bookend</Navbar.Brand>
+                <Navbar.Brand>
+                    <img src= {Icon} height='30' width='30' />
+                    Bookend</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>
                 <Navbar.Collapse className='navOptions'>
                     <Nav className='me-auto'>
