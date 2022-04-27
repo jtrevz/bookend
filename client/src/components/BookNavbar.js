@@ -1,19 +1,19 @@
 import React from 'react';
 import {Navbar, Nav, InputGroup, SplitButton, Dropdown, FormControl} from 'react-bootstrap'
 import './styles/BookNavbar.css'
-import Icon from './img/Icon'
+import logo from './img/logo.png'
 
 function BookNavbar () {
     return (
         <div expand='lg'>
             <Navbar expand='lg inline navBar'>
             <div className='nav-container'>
-                <Navbar.Brand>
-                    <img src= {Icon} height='30' width='30' />
+                <Navbar.Brand className='brand'>
+                    <img src={logo} height='55' width='55' />
                     Bookend</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>
                 <Navbar.Collapse className='navOptions'>
-                    <Nav className='me-auto'>
+                    <Nav className='justify-content-end'>
                         <Nav.Link >Home</Nav.Link>
                         <Nav.Link >Favorites</Nav.Link>
                         <Nav.Link >Genres</Nav.Link>
