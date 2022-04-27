@@ -14,9 +14,11 @@ function BookNavbar () {
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>
                 <Navbar.Collapse className='navOptions'>
                     <Nav className='justify-content-end'>
-                        <Nav.Link >Home</Nav.Link>
+                        <Nav.Link href='/'>Home</Nav.Link>
                         <Nav.Link >Favorites</Nav.Link>
                         <Nav.Link >Genres</Nav.Link>
+                        <Nav.Link href='/signup'>Signup</Nav.Link>
+                        <Nav.Link href='/login'>Login</Nav.Link>
                         <InputGroup className='searchbar mb-3'>
                              <FormControl aria-label='some text'/>
                              <SplitButton
