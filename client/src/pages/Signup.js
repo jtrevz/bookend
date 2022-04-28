@@ -10,10 +10,10 @@ function Signup () {
         <div className='signup'>
         <Container className='signUpContent'>
         <Row>
-            <Col className='col-xs-6 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3"'>
-            <h2 className='banner'>Welcome to Bookend!</h2>
-            <h5 className='smallBanner'>Create an account or <a href='./login'>log in</a>
-            </h5>
+            <Col className='col-xs-6 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3'>
+                <h2 className='banner'>Welcome to Bookend!</h2>
+                <h5 className='smallBanner'>Create an account or <a href='./login'>log in</a>
+                </h5>
                 <Form className='form'>
                 <Row>
                     <Col>
@@ -40,15 +40,12 @@ function Signup () {
                 <Form.Label>Password</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <Button className='btn-custom' 
-                        type="submit"
-                        style={styles.customButton}
-                        >
-                Submit
-                </Button>
+                        <Button className='btn-custom float-end' 
+                                type="submit"
+                                style={styles.customButton}
+                                >
+                                Submit
+                        </Button>
                 </Form>
             </Col>
         </Row>
