@@ -2,7 +2,7 @@ import React from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import {Row, Col, Container} from 'react-bootstrap'
-import './../components/styles/Signup.css'
+import './Signup.css'
 import  styles  from './styles.js'
 
 function Signup () {

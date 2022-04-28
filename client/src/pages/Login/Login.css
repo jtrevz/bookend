@@ -1,0 +1,24 @@
+.signup {
+    width:100%;
+}
+
+.signUpContent {
+    padding: 2%;
+}
+
+/* Banners */
+
+.smallBanner {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.smallBanner a {
+    text-decoration: none;
+}
+
+.form {
+    padding-top: 5%;
+}
+
+
