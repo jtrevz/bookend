@@ -3,15 +3,16 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import {Row, Col, Container} from 'react-bootstrap'
 import './../components/styles/Signup.css'
+import  styles  from './styles.js'
 
 function Signup () {
     return (
         <div className='signup'>
-        <Container>
+        <Container className='signUpContent'>
         <Row>
             <Col className='col-xs-6 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3"'>
-            <h2>Welcome to Bookend!</h2>
-            <h5>Create an account or <a href='./login'>log in</a>
+            <h2 className='banner'>Welcome to Bookend!</h2>
+            <h5 className='smallBanner'>Create an account or <a href='./login'>log in</a>
             </h5>
                 <Form className='form'>
                 <Row>
@@ -42,7 +43,10 @@ function Signup () {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button className='btn-custom' 
+                        type="submit"
+                        style={styles.customButton}
+                        >
                 Submit
                 </Button>
                 </Form>
