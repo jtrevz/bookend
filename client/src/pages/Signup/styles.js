@@ -4,6 +4,7 @@ const styles = {
         borderColor: '#535e58',
         color: '#ffffff',
         marginRight:'1%',
+        marginTop: '2%'
     }
 };
 
