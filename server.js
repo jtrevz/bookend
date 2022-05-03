@@ -8,12 +8,7 @@ const routes = require('./routes')
 
 const PORT = process.env.PORT || 3001;
 
-// const db = mysql.createConnection({
-//   host: "localhost",
-//   user:'root',
-//   password: 'r!cardo17',
-//   database: "bookend",
-// });
+
 
 app.get('/login', (req, res) => {
   db.query("INSERT INTO Users (email, password) VALUES ('jenny', 'hello');",
