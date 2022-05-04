@@ -1,10 +1,9 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const session = require('express-session')
+const session = require("express-session");
 
-const sequelize = require('./config/connection.js')
-const routes = require('./routes')
-
+const sequelize = require("./config/connection.js");
+const routes = require("./routes");
 
 const PORT = process.env.PORT || 3001;
 
@@ -15,11 +14,9 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-
 app.use(routes);
 // app.use(session(sess));
 
-
-sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('Now listening'));
+sequelize.sync({ force: true }).then(() => {
+  app.listen(PORT, () => console.log("Now listening"));
 });
