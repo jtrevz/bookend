@@ -32,10 +32,11 @@ router.post("/login", async (req, res) => {
       res.status(400).json({ message: "incorrect username" });
       return;
     }
-
+    console.log(req.body.password);
+    console.log(userData.password);
     //checking Password
     //const validPassword = await userData.checkPassword(req.body.password);
-    if (req.body.password == !userData.password) {
+    if (req.body.password !== userData.password) {
       res.status(400).json({ message: "incorrect password" });
       return;
     }
