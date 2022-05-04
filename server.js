@@ -17,6 +17,6 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 // app.use(session(sess));
 
-sequelize.sync({ force: true }).then(() => {
+sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log("Now listening"));
 });
