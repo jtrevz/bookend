@@ -8,17 +8,18 @@ const routes = require('./routes')
 
 const PORT = process.env.PORT || 3001;
 
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+
+app.use(routes);
+// app.use(session(sess));
 
 
-app.get('/login', (req, res) => {
-  db.query("INSERT INTO Users (email, password) VALUES ('jenny', 'hello');",
-  (err, results) => {
-    console.log(err);
-    res.send(results)
-  }
-  )
-})
 
-app.listen(PORT, (req, res) => {
-  console.log(`Now listening on PORT ${PORT}...`);
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log('Now listening'));
 });
