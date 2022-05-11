@@ -33,6 +33,8 @@
 }
 
 .navbar-collapse {
+  /* font-family: "Taviraj", serif; */
+  font-family: "Quicksand", sans-serif;
   display: flex;
   justify-content: end;
 }
