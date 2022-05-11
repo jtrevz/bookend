@@ -26,7 +26,7 @@ function BookNavbar() {
               <Nav.Link href="/">home</Nav.Link>
               <Nav.Link>favorites</Nav.Link>
               <Nav.Link>genres</Nav.Link>
-              <InputGroup>
+              <InputGroup className="searchBar">
                 <FormControl />
                 <Button variant="outline-secondary" title="search">
                   search
