@@ -1,0 +1,34 @@
+.dashboard {
+  width: 100%;
+  background-color: #edefed;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin: 2%;
+}
+
+.card {
+  border-radius: 5px;
+}
+
+/* User Content */
+
+.userCard {
+  border-radius: 10px;
+}
+
+.userImg {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #909d90;
+  display: flex;
+  justify-content: center;
+}
+
+.userImg svg {
+  background-color: white;
+  border-radius: 50%;
+  padding: 6%;
+  margin: 2%;
+}

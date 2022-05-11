@@ -52,3 +52,15 @@
   margin-left: 2%;
   margin-right: 2%;
 }
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  /* .nav-container {
+    display: flex;
+    flex-direction: column;
+  } */
+  /* .navbar-toggler-icon {
+    display: inline;
+  } */
+  
+}
