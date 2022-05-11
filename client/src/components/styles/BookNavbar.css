@@ -13,10 +13,14 @@
 
 /* Branding */
 
+.navbar-brand {
+  font-size: 1.75rem;
+}
+
 .brand {
   padding: 5px;
-  font-size: 30px;
-  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
 }
 
 .brand img {

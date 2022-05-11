@@ -9,15 +9,16 @@ import {
 } from "react-bootstrap";
 import "./styles/BookNavbar.css";
 import logo from "./img/logo.png";
+import fontSize from "./styles/brandFont";
 
 function BookNavbar() {
   return (
     <div expand="lg">
       <Navbar expand="lg inline navBar">
         <div className="nav-container">
-          <Navbar.Brand className="brand">
+          <Navbar.Brand className="brand" style={fontSize}>
             <img src={logo} height="55" width="55" />
-            Bookend
+            bookend
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="navOptions">
