@@ -1,49 +1,47 @@
 .navBar {
-    background-color: #C1CDC0;
-    padding: none;
-    border-radius: 0px 0px 10px 10px;
+  background-color: #c1cdc0;
+  padding: none;
 }
 
 .nav-container {
-    display: flex;
-    padding: .5%;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%
+  display: flex;
+  padding: 0.5%;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 /* Branding */
 
-.brand{
-    padding: 5px;
-    font-size: 30px;
-    font-family: "Helvetica Neue",Helvetica,Arial;
+.brand {
+  padding: 5px;
+  font-size: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
 }
 
-.brand img{
-    margin-right: 10px;
-    margin-left: 10px;
+.brand img {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .brand #text {
-    padding-right: 2px;
+  padding-right: 2px;
 }
 
-
 .navbar-collapse {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .searchbarContainer {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.navbar-nav{
-    align-items: center;
+.navbar-nav {
+  align-items: center;
 }
 
 .navOptions {
-    display: flex;
+  display: flex;
 }
