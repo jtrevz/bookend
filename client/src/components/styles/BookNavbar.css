@@ -39,11 +39,6 @@
   justify-content: end;
 }
 
-.searchbarContainer {
-  display: flex;
-  align-items: center;
-}
-
 .navbar-nav {
   align-items: center;
 }
