@@ -1,0 +1,35 @@
+.postBack {
+  padding: 1.5%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.userImg {
+  background-color: white;
+}
+
+.postCard {
+  border: none;
+}
+
+.postHeading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  margin-bottom: 2%;
+}
+
+.postAuthor {
+  margin-bottom: 0;
+}
+
+.postTimeStamp {
+  font-size: 90%;
+  font-weight: lighter;
+  margin-left: 1%;
+}
+
+.postText {
+  font-family: "Quicksand", sans-serif;
+  font-size: 90%;
+}

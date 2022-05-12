@@ -27,15 +27,16 @@
 }
 
 .userImg {
-  border-radius: 70% 20%;
-  background-color: #909d90;
+  /* border-radius: 50%;
+  background-color: #909d90; */
+  background-color: inherit;
   display: flex;
   justify-content: center;
 }
 
 .userImg svg {
   border-radius: 50%;
-  background-color: white;
+  background-color: #909d90;
   padding: 8%;
   margin: 5%;
 }
