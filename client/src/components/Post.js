@@ -39,8 +39,10 @@ function Post() {
                   </Card.Title>
                 </Row>
                 <Row>
-                  <Star />
-                  <CommImg />
+                  <div className="inter">
+                    <CommImg />
+                    <Star />
+                  </div>
                 </Row>
               </Card>
             </Col>

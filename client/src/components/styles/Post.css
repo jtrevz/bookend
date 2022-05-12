@@ -35,6 +35,11 @@
   font-size: 90%;
 }
 
+.inter {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .interactions {
-  display: inline;
+  margin: 2.5%;
 }
