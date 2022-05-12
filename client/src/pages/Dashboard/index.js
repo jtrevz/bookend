@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Col, Row, Card } from "react-bootstrap";
 import UserCard from "../../components/UserCard";
+import Post from "../../components/Post";
 import "./style.css";
 
 function Dashboard() {
@@ -12,7 +13,7 @@ function Dashboard() {
             <UserCard />
           </Col>
           <Col md={9}>
-            <Card>Dashboard</Card>
+            <Post />
           </Col>
         </Row>
       </Container>
