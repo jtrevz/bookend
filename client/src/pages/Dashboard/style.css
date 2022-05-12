@@ -19,7 +19,6 @@
 .userCard {
   border-radius: 10px;
   font-family: "Taviraj", serif;
-  font-weight: bold;
   border-radius: 10px;
   /* background: linear-gradient(145deg, #e9efe9, #c4c9c4); */
   background: #dadfda;
@@ -28,7 +27,7 @@
 }
 
 .userImg {
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 70% 20%;
   background-color: #909d90;
   display: flex;
   justify-content: center;
@@ -36,9 +35,15 @@
 
 .userImg svg {
   border-radius: 50%;
-  background-color: #e9efe9;
+  background-color: white;
   padding: 8%;
   margin: 5%;
+}
+
+.nameText {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 3%;
 }
 
 /* Icons */
@@ -51,5 +56,6 @@
 }
 
 .asterisk {
-  margin: 2%;
+  margin: 1.5%;
+  margin-bottom: 2%;
 }
