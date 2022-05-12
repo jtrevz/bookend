@@ -2,6 +2,7 @@
   padding: 1.5%;
   background-color: white;
   border-radius: 10px;
+  margin: none;
 }
 
 .userImg {
@@ -32,4 +33,8 @@
 .postText {
   font-family: "Quicksand", sans-serif;
   font-size: 90%;
+}
+
+.interactions {
+  display: inline;
 }

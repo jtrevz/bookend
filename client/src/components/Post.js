@@ -3,6 +3,8 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import UserImg from "./img/UserImg";
+import Star from "./img/Star";
+import CommImg from "./img/CommImg";
 import "./styles/Post.css";
 
 function Post() {
@@ -23,9 +25,6 @@ function Post() {
                     </Card.Title>
                     <Card.Text className="postTimeStamp">@ 12:32</Card.Text>
                   </Col>
-                  {/* <Col>
-                    <Card.Text>12:32</Card.Text>
-                  </Col> */}
                 </Row>
                 <Row>
                   <Card.Title className="postText">
@@ -39,7 +38,10 @@ function Post() {
                     deserunt mollit anim id est laborum.
                   </Card.Title>
                 </Row>
-                <Row>hello</Row>
+                <Row>
+                  <Star />
+                  <CommImg />
+                </Row>
               </Card>
             </Col>
           </Row>
