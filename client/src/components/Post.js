@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import UserImg from "./img/UserImg";
 import Star from "./img/Star";
 import CommImg from "./img/CommImg";
+import Comment from "./Comment";
 import "./styles/Post.css";
 
 function Post() {

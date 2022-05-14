@@ -14,6 +14,7 @@ function Dashboard() {
           </Col>
           <Col md={9}>
             <Post />
+            <Post />
           </Col>
         </Row>
       </Container>
