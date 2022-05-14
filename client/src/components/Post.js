@@ -10,7 +10,7 @@ import "./styles/Post.css";
 
 function Post() {
   return (
-    <div>
+    <div className="post">
       <Card md={2} className="userCard">
         <div className="postBack">
           <Row>
@@ -49,6 +49,7 @@ function Post() {
             </Col>
           </Row>
         </div>
+        <Comment />
       </Card>
     </div>
   );
