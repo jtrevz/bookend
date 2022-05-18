@@ -1,11 +1,24 @@
 .comment {
   margin: 2%;
+  display: flex;
+}
+
+.authorTimeBox {
+  display: flex;
+  flex-direction: row;
 }
 
 .commentAuthor {
+  font-size: 0.9rem;
+}
+
+.commentTime {
   font-size: 0.8rem;
+  font-weight: lighter;
 }
 
 .commentText {
   font-size: 0.8rem;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 2%;
 }
